@@ -1,0 +1,7 @@
+(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/")
+(load "auctex.el" nil t t)
+(load "preview-latex.el" nil t t)
+(require 'tex-mik)
+(tooltip-mode t)
+(tool-bar-mode t)
+(menu-bar-mode t)
