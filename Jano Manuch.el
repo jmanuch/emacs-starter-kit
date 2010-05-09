@@ -6,6 +6,7 @@
 ;; frame, so we need to the following line to avoid that:
 (setq after-make-frame-functions (function (lambda (f) (tool-bar-mode 1))))
 (global-set-key "\C-z" 'undo)
+(global-set-key "\C-cm" 'magit-status)
 
 ;; AUCTEX
 (load "auctex.el" nil t t)
