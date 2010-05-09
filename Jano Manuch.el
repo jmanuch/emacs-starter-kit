@@ -29,7 +29,6 @@
 ;(setq TeX-electric-sub-and-superscript t)
 (load "~/.emacs.d/tex-addos")
 
-
 ;; -----------------------------------------------------------------------------
 ;; The following stuff is taken from
 ;; http://scottmcpeak.com/elisp/scott.emacs.el
